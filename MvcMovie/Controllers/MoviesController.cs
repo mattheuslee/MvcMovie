@@ -13,7 +13,7 @@ namespace MvcMovie.Controllers
     public class MoviesController : Controller
     {
         private MovieDBContext db = new MovieDBContext();
-
+            
         // GET: Movies
         public ActionResult Index(string movieGenre, string searchString)
         {
